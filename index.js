@@ -16,7 +16,7 @@ function FisherYaterMethod(array) {
   return array;
 }
 
-function Generator(long) {
+function Generator() {
   const consonants = "qwrtypñlkjhgfdszxcvbnm";
   const volwes = "aeiou";
   const numbers = "1234567890";
@@ -36,4 +36,4 @@ function Generator(long) {
   console.log(`Tu contraseña es: ${fullPassord.join("")}`);
 }
 
-Generator(5);
+Generator();
